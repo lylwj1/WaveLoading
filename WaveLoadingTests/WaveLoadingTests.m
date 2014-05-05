@@ -3,7 +3,7 @@
 //  WaveLoadingTests
 //
 //  Created by liaowj on 14-5-5.
-//  Copyright (c) 2014年 zhenai. All rights reserved.
+//  Copyright (c) 2014年 liaowj. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

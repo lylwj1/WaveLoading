@@ -21,6 +21,9 @@
 		7EB9FE151917329100FAE075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF71917329100FAE075 /* UIKit.framework */; };
 		7EB9FE1D1917329100FAE075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE1B1917329100FAE075 /* InfoPlist.strings */; };
 		7EB9FE1F1917329100FAE075 /* WaveLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE1E1917329100FAE075 /* WaveLoadingTests.m */; };
+		7EB9FE291917395500FAE075 /* red_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE281917395500FAE075 /* red_heart@2x.png */; };
+		7EB9FE2C19173BDD00FAE075 /* UIView+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE2A19173BDD00FAE075 /* UIView+Circle.m */; };
+		7EB9FE3519173E1100FAE075 /* CPAnimationProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE3219173E1100FAE075 /* CPAnimationProgram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
