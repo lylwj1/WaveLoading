@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB9FDF41917329100FAE075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF31917329100FAE075 /* Foundation.framework */; };
+		7EB9FDF61917329100FAE075 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF51917329100FAE075 /* CoreGraphics.framework */; };
+		7EB9FDF81917329100FAE075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF71917329100FAE075 /* UIKit.framework */; };
+		7EB9FDFE1917329100FAE075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FDFC1917329100FAE075 /* InfoPlist.strings */; };
+		7EB9FE001917329100FAE075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FDFF1917329100FAE075 /* main.m */; };
+		7EB9FE041917329100FAE075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE031917329100FAE075 /* AppDelegate.m */; };
+		7EB9FE071917329100FAE075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE051917329100FAE075 /* Main.storyboard */; };
+		7EB9FE0A1917329100FAE075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE091917329100FAE075 /* ViewController.m */; };
+		7EB9FE0C1917329100FAE075 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE0B1917329100FAE075 /* Images.xcassets */; };
+		7EB9FE131917329100FAE075 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FE121917329100FAE075 /* XCTest.framework */; };
+		7EB9FE141917329100FAE075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF31917329100FAE075 /* Foundation.framework */; };
+		7EB9FE151917329100FAE075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB9FDF71917329100FAE075 /* UIKit.framework */; };
+		7EB9FE1D1917329100FAE075 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE1B1917329100FAE075 /* InfoPlist.strings */; };
+		7EB9FE1F1917329100FAE075 /* WaveLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE1E1917329100FAE075 /* WaveLoadingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EB9FE161917329100FAE075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EB9FDE81917329100FAE075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB9FDEF1917329100FAE075;
+			remoteInfo = WaveLoading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EB9FDF01917329100FAE075 /* WaveLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB9FDF31917329100FAE075 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EB9FDF51917329100FAE075 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EB9FDF71917329100FAE075 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EB9FDFB1917329100FAE075 /* WaveLoading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveLoading-Info.plist"; sourceTree = "<group>"; };
+		7EB9FDFD1917329100FAE075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EB9FDFF1917329100FAE075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EB9FE011917329100FAE075 /* WaveLoading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveLoading-Prefix.pch"; sourceTree = "<group>"; };
+		7EB9FE021917329100FAE075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EB9FE031917329100FAE075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EB9FE061917329100FAE075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EB9FE081917329100FAE075 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EB9FE091917329100FAE075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EB9FE0B1917329100FAE075 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EB9FE111917329100FAE075 /* WaveLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB9FE121917329100FAE075 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7EB9FE1A1917329100FAE075 /* WaveLoadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveLoadingTests-Info.plist"; sourceTree = "<group>"; };
+		7EB9FE1C1917329100FAE075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EB9FE1E1917329100FAE075 /* WaveLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveLoadingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB9FDED1917329100FAE075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FDF61917329100FAE075 /* CoreGraphics.framework in Frameworks */,
+				7EB9FDF81917329100FAE075 /* UIKit.framework in Frameworks */,
+				7EB9FDF41917329100FAE075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB9FE0E1917329100FAE075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FE131917329100FAE075 /* XCTest.framework in Frameworks */,
+				7EB9FE151917329100FAE075 /* UIKit.framework in Frameworks */,
+				7EB9FE141917329100FAE075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB9FDE71917329100FAE075 = {
+			isa = PBXGroup;
+			children = (
+				7EB9FDF91917329100FAE075 /* WaveLoading */,
+				7EB9FE181917329100FAE075 /* WaveLoadingTests */,
+				7EB9FDF21917329100FAE075 /* Frameworks */,
+				7EB9FDF11917329100FAE075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB9FDF11917329100FAE075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FDF01917329100FAE075 /* WaveLoading.app */,
+				7EB9FE111917329100FAE075 /* WaveLoadingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB9FDF21917329100FAE075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FDF31917329100FAE075 /* Foundation.framework */,
+				7EB9FDF51917329100FAE075 /* CoreGraphics.framework */,
+				7EB9FDF71917329100FAE075 /* UIKit.framework */,
+				7EB9FE121917329100FAE075 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EB9FDF91917329100FAE075 /* WaveLoading */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FE021917329100FAE075 /* AppDelegate.h */,
+				7EB9FE031917329100FAE075 /* AppDelegate.m */,
+				7EB9FE051917329100FAE075 /* Main.storyboard */,
+				7EB9FE081917329100FAE075 /* ViewController.h */,
+				7EB9FE091917329100FAE075 /* ViewController.m */,
+				7EB9FE0B1917329100FAE075 /* Images.xcassets */,
+				7EB9FDFA1917329100FAE075 /* Supporting Files */,
+			);
+			path = WaveLoading;
+			sourceTree = "<group>";
+		};
+		7EB9FDFA1917329100FAE075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FDFB1917329100FAE075 /* WaveLoading-Info.plist */,
+				7EB9FDFC1917329100FAE075 /* InfoPlist.strings */,
+				7EB9FDFF1917329100FAE075 /* main.m */,
+				7EB9FE011917329100FAE075 /* WaveLoading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EB9FE181917329100FAE075 /* WaveLoadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FE1E1917329100FAE075 /* WaveLoadingTests.m */,
+				7EB9FE191917329100FAE075 /* Supporting Files */,
+			);
+			path = WaveLoadingTests;
+			sourceTree = "<group>";
+		};
+		7EB9FE191917329100FAE075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FE1A1917329100FAE075 /* WaveLoadingTests-Info.plist */,
+				7EB9FE1B1917329100FAE075 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EB9FDEF1917329100FAE075 /* WaveLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB9FE221917329100FAE075 /* Build configuration list for PBXNativeTarget "WaveLoading" */;
+			buildPhases = (
+				7EB9FDEC1917329100FAE075 /* Sources */,
+				7EB9FDED1917329100FAE075 /* Frameworks */,
+				7EB9FDEE1917329100FAE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveLoading;
+			productName = WaveLoading;
+			productReference = 7EB9FDF01917329100FAE075 /* WaveLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EB9FE101917329100FAE075 /* WaveLoadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB9FE251917329100FAE075 /* Build configuration list for PBXNativeTarget "WaveLoadingTests" */;
+			buildPhases = (
+				7EB9FE0D1917329100FAE075 /* Sources */,
+				7EB9FE0E1917329100FAE075 /* Frameworks */,
+				7EB9FE0F1917329100FAE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB9FE171917329100FAE075 /* PBXTargetDependency */,
+			);
+			name = WaveLoadingTests;
+			productName = WaveLoadingTests;
+			productReference = 7EB9FE111917329100FAE075 /* WaveLoadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EB9FDE81917329100FAE075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhenai;
+				TargetAttributes = {
+					7EB9FE101917329100FAE075 = {
+						TestTargetID = 7EB9FDEF1917329100FAE075;
+					};
+				};
+			};
+			buildConfigurationList = 7EB9FDEB1917329100FAE075 /* Build configuration list for PBXProject "WaveLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EB9FDE71917329100FAE075;
+			productRefGroup = 7EB9FDF11917329100FAE075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EB9FDEF1917329100FAE075 /* WaveLoading */,
+				7EB9FE101917329100FAE075 /* WaveLoadingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB9FDEE1917329100FAE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FE0C1917329100FAE075 /* Images.xcassets in Resources */,
+				7EB9FDFE1917329100FAE075 /* InfoPlist.strings in Resources */,
+				7EB9FE071917329100FAE075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB9FE0F1917329100FAE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FE1D1917329100FAE075 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EB9FDEC1917329100FAE075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FE0A1917329100FAE075 /* ViewController.m in Sources */,
+				7EB9FE041917329100FAE075 /* AppDelegate.m in Sources */,
+				7EB9FE001917329100FAE075 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB9FE0D1917329100FAE075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FE1F1917329100FAE075 /* WaveLoadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EB9FE171917329100FAE075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB9FDEF1917329100FAE075 /* WaveLoading */;
+			targetProxy = 7EB9FE161917329100FAE075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EB9FDFC1917329100FAE075 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB9FDFD1917329100FAE075 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EB9FE051917329100FAE075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB9FE061917329100FAE075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EB9FE1B1917329100FAE075 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB9FE1C1917329100FAE075 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EB9FE201917329100FAE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EB9FE211917329100FAE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB9FE231917329100FAE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveLoading/WaveLoading-Prefix.pch";
+				INFOPLIST_FILE = "WaveLoading/WaveLoading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EB9FE241917329100FAE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveLoading/WaveLoading-Prefix.pch";
+				INFOPLIST_FILE = "WaveLoading/WaveLoading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7EB9FE261917329100FAE075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveLoading.app/WaveLoading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveLoading/WaveLoading-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WaveLoadingTests/WaveLoadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7EB9FE271917329100FAE075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveLoading.app/WaveLoading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveLoading/WaveLoading-Prefix.pch";
+				INFOPLIST_FILE = "WaveLoadingTests/WaveLoadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EB9FDEB1917329100FAE075 /* Build configuration list for PBXProject "WaveLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB9FE201917329100FAE075 /* Debug */,
+				7EB9FE211917329100FAE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB9FE221917329100FAE075 /* Build configuration list for PBXNativeTarget "WaveLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB9FE231917329100FAE075 /* Debug */,
+				7EB9FE241917329100FAE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EB9FE251917329100FAE075 /* Build configuration list for PBXNativeTarget "WaveLoadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB9FE261917329100FAE075 /* Debug */,
+				7EB9FE271917329100FAE075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EB9FDE81917329100FAE075 /* Project object */;
+}
