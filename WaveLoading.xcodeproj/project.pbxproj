@@ -24,6 +24,8 @@
 		7EB9FE291917395500FAE075 /* red_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9FE281917395500FAE075 /* red_heart@2x.png */; };
 		7EB9FE2C19173BDD00FAE075 /* UIView+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE2A19173BDD00FAE075 /* UIView+Circle.m */; };
 		7EB9FE3519173E1100FAE075 /* CPAnimationProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE3219173E1100FAE075 /* CPAnimationProgram.m */; };
+		7EB9FE3619173E1100FAE075 /* CPAnimationSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE3319173E1100FAE075 /* CPAnimationSequence.m */; };
+		7EB9FE3719173E1100FAE075 /* CPAnimationStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9FE3419173E1100FAE075 /* CPAnimationStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,15 @@
 		7EB9FE1A1917329100FAE075 /* WaveLoadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveLoadingTests-Info.plist"; sourceTree = "<group>"; };
 		7EB9FE1C1917329100FAE075 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7EB9FE1E1917329100FAE075 /* WaveLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveLoadingTests.m; sourceTree = "<group>"; };
+		7EB9FE281917395500FAE075 /* red_heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_heart@2x.png"; sourceTree = "<group>"; };
+		7EB9FE2A19173BDD00FAE075 /* UIView+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Circle.m"; sourceTree = "<group>"; };
+		7EB9FE2B19173BDD00FAE075 /* UIView+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Circle.h"; sourceTree = "<group>"; };
+		7EB9FE2E19173E1100FAE075 /* CPAnimationProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationProgram.h; sourceTree = "<group>"; };
+		7EB9FE2F19173E1100FAE075 /* CPAnimationSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationSequence.h; sourceTree = "<group>"; };
+		7EB9FE3019173E1100FAE075 /* CPAnimationStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAnimationStep.h; sourceTree = "<group>"; };
+		7EB9FE3219173E1100FAE075 /* CPAnimationProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationProgram.m; sourceTree = "<group>"; };
+		7EB9FE3319173E1100FAE075 /* CPAnimationSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationSequence.m; sourceTree = "<group>"; };
+		7EB9FE3419173E1100FAE075 /* CPAnimationStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAnimationStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +126,15 @@
 		7EB9FDF91917329100FAE075 /* WaveLoading */ = {
 			isa = PBXGroup;
 			children = (
+				7EB9FE281917395500FAE075 /* red_heart@2x.png */,
 				7EB9FE021917329100FAE075 /* AppDelegate.h */,
 				7EB9FE031917329100FAE075 /* AppDelegate.m */,
 				7EB9FE051917329100FAE075 /* Main.storyboard */,
 				7EB9FE081917329100FAE075 /* ViewController.h */,
 				7EB9FE091917329100FAE075 /* ViewController.m */,
+				7EB9FE2A19173BDD00FAE075 /* UIView+Circle.m */,
+				7EB9FE2B19173BDD00FAE075 /* UIView+Circle.h */,
+				7EB9FE2D19173E1100FAE075 /* CPAnimation */,
 				7EB9FE0B1917329100FAE075 /* Images.xcassets */,
 				7EB9FDFA1917329100FAE075 /* Supporting Files */,
 			);
@@ -153,6 +168,27 @@
 				7EB9FE1B1917329100FAE075 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EB9FE2D19173E1100FAE075 /* CPAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FE2E19173E1100FAE075 /* CPAnimationProgram.h */,
+				7EB9FE2F19173E1100FAE075 /* CPAnimationSequence.h */,
+				7EB9FE3019173E1100FAE075 /* CPAnimationStep.h */,
+				7EB9FE3119173E1100FAE075 /* private */,
+			);
+			path = CPAnimation;
+			sourceTree = "<group>";
+		};
+		7EB9FE3119173E1100FAE075 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9FE3219173E1100FAE075 /* CPAnimationProgram.m */,
+				7EB9FE3319173E1100FAE075 /* CPAnimationSequence.m */,
+				7EB9FE3419173E1100FAE075 /* CPAnimationStep.m */,
+			);
+			path = private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB9FE0C1917329100FAE075 /* Images.xcassets in Resources */,
+				7EB9FE291917395500FAE075 /* red_heart@2x.png in Resources */,
 				7EB9FDFE1917329100FAE075 /* InfoPlist.strings in Resources */,
 				7EB9FE071917329100FAE075 /* Main.storyboard in Resources */,
 			);
@@ -252,7 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB9FE2C19173BDD00FAE075 /* UIView+Circle.m in Sources */,
+				7EB9FE3719173E1100FAE075 /* CPAnimationStep.m in Sources */,
 				7EB9FE0A1917329100FAE075 /* ViewController.m in Sources */,
+				7EB9FE3619173E1100FAE075 /* CPAnimationSequence.m in Sources */,
+				7EB9FE3519173E1100FAE075 /* CPAnimationProgram.m in Sources */,
 				7EB9FE041917329100FAE075 /* AppDelegate.m in Sources */,
 				7EB9FE001917329100FAE075 /* main.m in Sources */,
 			);
